@@ -20,7 +20,7 @@ const ConfigWaterMark:WaterMarkConfig = {
 }
 
 
-stamp.StampImages(ConfigWaterMark, ["imagemprincipal.jpeg"])
+stamp.StampImages(ConfigWaterMark, ["imagemprincipalsrc.jpeg"])
 
 ``` 
 - Se tudo der certo, uma pasta com todas as suas imagens editadas será criada.
