@@ -24,3 +24,14 @@ stamp.StampImages(ConfigWaterMark, ["imagemprincipalsrc.jpeg"])
 
 ``` 
 - Se tudo der certo, uma pasta com todas as suas imagens editadas será criada.
+
+
+- Se você quiser editar muitas imagens, coloque todas em uma pasta e chame o metodo ReadAllImagesOfOneFolder, ela irá retornar o array com o src de todas as imagens. Assim: 
+
+```js
+
+const allimages:Array<string> = stamp.ReadAllImagesOfOneFolder("/foldersrc") 
+
+stamp.StampImages(ConfigWaterMark, allimages)
+
+```
